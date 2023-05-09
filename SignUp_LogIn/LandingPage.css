@@ -103,17 +103,34 @@
   .headline-text{
     font-size: 3rem;
     position: absolute;
-    top: 20px;
+    /* //top: 20px; */
     left: 51%;
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 20rem;
+    margin-top: 10%;
     color: #090909;
   }
   .headline-text>h1{
-    color: #090909;
+    color: #224936;
   }
- 
+  .headline-text>p{
+    color: #224936;
+    font-size: medium;
+  }
+  .about-us{
+    margin-top: 10%;
+  }
+  .container>p{
+    color: #090909;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-about{
+    color: #224936;
+  }
+  
   
   .features {
     width: 100%;
