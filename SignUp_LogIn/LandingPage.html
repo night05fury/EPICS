@@ -1,0 +1,100 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="LandingPage.css">
+  <title>E-Waste Solutions</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/3.6.2/fabric.min.js">
+    $("#search-icon").click(function () {
+      $(".nav").toggleClass("search");
+      $(".nav").toggleClass("no-search");
+      $(".search-input").toggleClass("search-active");
+    });
+
+    $('.menu-toggle').click(function () {
+      $(".nav").toggleClass("mobile-nav");
+      $(this).toggleClass("is-active");
+    });
+
+  </script>
+</head>
+
+<body>
+  <div class="NavigationBanner">
+    <div class="nav-wrapper">
+      <div class="grad-bar"></div>
+      <nav class="navbar">
+        <img
+          src="images/Logo.svg" height="43px" width="107px"
+          alt="Company Logo">
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav no-search">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#">About</a></li>
+          <li class="nav-item"><a href="#">Services</a></li>
+          <li class="nav-item"><a href="#">Process</a></li>
+          <li class="nav-item"><a href="#">Contact Us</a></li>
+          <i class="fas fa-search" id="search-icon"></i>
+          <input class="search-input" type="text" placeholder="Search..">
+        </ul>
+      </nav>
+    </div>
+    <section class="headline">
+      <div class="headline-text">
+        <h1>E-Waste Solutions</h1>
+      <br>
+      <p></p>
+      </div>
+      
+      <img  src="images/BannerBackground.svg" alt="E-Waste">
+    </section>
+    <section class="about-us">
+      <div>
+        <p >
+          E-waste Solutions provides comprehensive and sustainable solutions.
+          for managing electronic waste. Our experienced team offers secure
+          data destruction, certified e-waste recycling, and asset recovery
+          services for a variety of electronic devices. We're committed to
+          protecting the environment and delivering tailored solutions to meet
+          our clients' unique needs.
+        </p>
+        <img
+          src=""
+          alt="">
+      </div>
+    </section>
+    <section class="features">
+      <div class="feature-container">
+        <img src="https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png" alt="Flexbox Feature">
+        <h2>Flexbox Featured</h2>
+        <p>This pen contains use of flexbox for the headline and feature section! We use it in our mobile navbar and
+          show the power of mixing css grid and flexbox.</p>
+      </div>
+      <div class="feature-container">
+        <img src="https://blog.webix.com/wp-content/uploads/2017/06/20170621-CSS-Grid-Layout-710x355-tiny.png"
+          alt="Flexbox Feature">
+        <h2>CSS Grid Navigation</h2>
+        <p>While flexbox is used for the the mobile navbar, CSS grid is used for the desktop navbar showing many ways we
+          can use both.</p>
+      </div>
+      <div class="feature-container">
+        <img src="https://www.graycelltech.com/wp-content/uploads/2015/06/GCT-HTML5.jpg" alt="Flexbox Feature">
+        <h2>Basic HTML5</h2>
+        <p>This pen contains basic html to setup the page to display the responsive navbar.</p>
+      </div>
+    </section>
+  </div>
+
+
+  <footer>
+
+  </footer>
+</body>
+
+</html>
