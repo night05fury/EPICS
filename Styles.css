@@ -120,7 +120,9 @@
   }
   .about-us{
     margin-top: 10%;
+    
   }
+  
   .container{
     color: #090909;
     margin-top: 5%;
@@ -128,6 +130,7 @@
     align-items: center;
     justify-content: center;
   }
+  
   .img>img{
     width: 50vw;
     height: auto;
@@ -158,11 +161,12 @@
   .feature-container {
     flex-basis: 30%;
     margin-top: 10px;
+    padding-left: 2%;
   }
   
-  .feature-container p {
-    color: #000;
-    text-align: center;
+  .feature-container h2 {
+    color: #60BA8A;
+    text-align: left;
     line-height: 1.4;
     margin-bottom: 15px;
   }
@@ -171,7 +175,31 @@
     width: 100%;
     margin-bottom: 15px;
   }
-  
+  .management-process img{
+    width: 50vw;
+    align-items: center;
+    margin-left: 25%;
+  }
+  #container{
+    position: relative;
+    max-width: auto;
+    margin:2%;
+  }
+  #container .content {
+    margin: ;
+    position: absolute; /* Position the background text */
+    bottom: 10; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 25px; /* Some padding */
+    
+  }
+  .pick img{
+    width: 100%;
+    object-fit: cover;
+  }
   /* SEARCH FUNCTION */
   
   #search-icon {
@@ -185,7 +213,14 @@
     color: #3498db;
     cursor: pointer;
   }
-  
+  .bottom-container{
+    
+    padding-top: 50px 0 0 50px;
+}
+  .footer-link{
+    margin: 50px auto 50px auto;
+    padding-right: 30px;
+  }
   .search {
    
     -webkit-transform: translate(-35%);
