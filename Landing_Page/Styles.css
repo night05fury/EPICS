@@ -128,18 +128,23 @@
     align-items: center;
     justify-content: center;
   }
-  .img{
-    width: auto;
+  .img>img{
+    width: 50vw;
     height: auto;
+    /* max-width: vw; */
     position: relative;
   }
   .text-about{
     color: #224936;
     font-size: 2VW;
     padding-left: 20px;
+    /* margin-right: 20px; */
+    
     
   }
-  
+  .services>img{
+    width: 100%;
+  }
   
   .features {
     width: 100%;
@@ -182,8 +187,9 @@
   }
   
   .search {
-    transform: translate(-35%);
+   
     -webkit-transform: translate(-35%);
+    transform: translate(-35%);
     transition: transform 0.7s ease-in-out;
     color: #3498db;
   }
