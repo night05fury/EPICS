@@ -1,17 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400&display=swap');
 
 * {
 	box-sizing: border-box;
 }
 
 body {
-	background: #f6f5f7;
+	background: #f6f5f7; /* Color of white bakground  */
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	height: 100vh;
 	margin: -20px 0 50px;
 }
@@ -45,11 +46,11 @@ a {
 }
 
 button {
-	border-radius: 20px;
+	border-radius: 8px;
 	border: 1px solid #ffffff;
-	background-color: #4dbf96;
+	background-color: #4dbf96; /* Color of button */
 	color: #FFFFFF;
-	font-size: 12px;s
+	font-size: 12px;
 	font-weight: bold;
 	padding: 12px 45px;
 	letter-spacing: 1px;
@@ -226,27 +227,3 @@ input {
 	width: 40px;
 }
 
-footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    bottom: 0;
-    position: fixed;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 999;
-}
-
-footer p {
-    margin: 10px 0;
-}
-
-footer i {
-    color: rgb(117, 33, 33);
-}
-
-footer a {
-    color: #3c97bf;
-    text-decoration: none;
-}
