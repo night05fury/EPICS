@@ -12,7 +12,7 @@
   font-family: "Noto Sans", sans-serif;
 }
 body{
-  background: rgb(219, 219, 219);
+  background: whitesmoke;
 }
 .header{
   display: flex;
@@ -41,7 +41,7 @@ body{
 .search_box{
   display: flex;
   align-items: center;
-  margin-left: 26vw;
+  margin-left: 31vw;
   
 }
 .search_box input{
@@ -50,7 +50,7 @@ body{
   padding: 9px;
   width: 250px;
   background: rgb(228, 228, 228);
-  border-radius: 20px;
+  border-radius: 8px;
 }
 .search_box >placeholder{
   margin-left: 20px;
@@ -83,12 +83,17 @@ body{
 
 /* Side menubar section */
 nav{
-  background: black;
+  background: rgb(0, 0, 0);
+  height: 150vh;
+  /* justify-content: center;
+  justify-items: left; */
 }
 .side_navbar{
   padding: 1px;
   display: flex;
   flex-direction: column;
+  /* height: 0vh; */
+  
 }
 .side_navbar span{
   color: gray;
@@ -103,10 +108,12 @@ nav{
     padding: 0.8rem 3rem;
     font-weight: 500;
     font-size: 1vw;
-    color: rgb(238, 232, 232);
+    color: rgb(232, 234, 238);
 }
 .side_navbar svg{
-    justify-content: left;
+    /* justify-content: left; */
+    display: flex;
+
    
 }
 .links{
@@ -128,6 +135,7 @@ nav{
 .main-body{
   width: 70%;
   padding: 1rem;
+  padding-right: 1rem;  
 }
 .promo_card{
   width: 100%;
@@ -135,7 +143,7 @@ nav{
   margin-top: 10px;
   border-radius: 8px;
   padding: 0.5rem 1rem 1rem 3rem;
-  background: rgb(37, 37, 37);
+  background: rgb(221, 241, 231);
 }
 .promo_card h1, .promo_card span, button{
   margin: 10px;
@@ -146,65 +154,13 @@ nav{
   border-radius: 5px;
   cursor: pointer;
 }
-.history_lists{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+
 .row{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 1rem 0;
 }
-table{
-  background: #fff;
-  padding: 1rem;
-  text-align: left;
-  border-radius: 10px;
-}
-table td, th{
-  padding: 0.2rem 0.8rem;
-}
-table th{
-  font-size: 15px;
-}
-table td{
-  font-size: 13px;
-  color: rgb(100, 100, 100);
-}
 
 
 
-/* Sidebar Section */
-.sidebar{
-  width: 15%;
-  padding: 2rem 1rem;
-  background: #fff;
-}
-.sidebar h4{
-  margin-bottom: 1.5rem;
-}
-.sidebar .balance{
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-.balance .icon{
-  color: #fff;
-  font-size: 20px;
-  border-radius: 6px;
-  margin-right: 1rem;
-  padding: 1rem;
-  background: rgb(37, 37, 37);
-}
-.balance .info h5{
-  font-size: 16px;
-}
-.balance .info span{
-  font-size: 14px;
-  color: rgb(100, 100, 100);
-}
-.balance .info i{
-  margin-right: 2px;
-}
