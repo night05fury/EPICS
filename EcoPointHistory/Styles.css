@@ -1,0 +1,167 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+body{
+  background: whitesmoke;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px;
+  background: #fff;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.Logo img{
+    width: 30px;
+    height: auto;
+    margin-left: 2vw;
+    align-items: center;
+}
+.logo a{
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 2rem 8rem 2rem 2rem;
+}
+.search_box{
+  display: flex;
+  align-items: center;
+  margin-left: 31vw;
+  
+}
+.search_box input{
+  
+  text-align: center;
+  padding: 9px;
+  width: 250px;
+  background: rgb(228, 228, 228);
+  border-radius: 8px;
+}
+.search_box >placeholder{
+  margin-left: 20px;
+}
+.header-icons{
+  display: flex;
+  align-items: center;
+}
+.header-icons i{
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.header-icons .account{
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-icons .account img{
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.container{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Side menubar section */
+nav{
+  background: rgb(0, 0, 0);
+  height: 150vh;
+  /* justify-content: center;
+  justify-items: left; */
+}
+.side_navbar{
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  /* height: 0vh; */
+  
+}
+.side_navbar span{
+  color: gray;
+  margin: 1rem 3rem;
+  font-size: 12px;
+}
+.side_navbar a{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: left;
+    width: 100%;
+    padding: 0.8rem 3rem;
+    
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(232, 234, 238);
+}
+.side_navbar svg{
+    /* justify-content: left; */
+    display: flex;
+
+   
+}
+.links{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.links a{
+  font-size: 13px;
+}
+.side_navbar a:hover{
+  background: rgb(101, 99, 99);
+}
+.side_navbar .active{
+  border-left: 2px solid rgb(100, 100, 100);
+}
+
+/* Main Body Section */
+.main-body{
+  width: 70%;
+  padding: 1rem;
+  padding-right: 1rem;  
+}
+.promo_card{
+  width: 100%;
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 0.5rem 1rem 1rem 3rem;
+  background: rgb(221, 241, 231);
+}
+.promo_card h1, .promo_card span, button{
+  margin: 10px;
+}
+.promo_card button{
+  display: block;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+
+
